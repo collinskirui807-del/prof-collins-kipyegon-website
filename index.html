@@ -136,7 +136,23 @@
             padding: 30px;
         }
 
-        @media (max-width: 700px) {
+      a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #0073e6;
+    transform: scale(1.05);
+}
+       @media (max-width: 700px) {
             header h1 {
                 font-size: 34px;
             }
@@ -150,18 +166,45 @@
 </head>
 
 <body>
+    <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <header>
-        <h1>Prof. Collins Kipyegon</h1>
-        <p>Pure Mathematics • Science • Education • Leadership</p>
-        <p>Welcome to my official personal website 🇰🇪</p>
-    </header>
+    <header id="home">
+    <h1>Prof. Collins Kipyegon</h1>
+
+    <h2>Pure Mathematics • Research • Education • Leadership</h2>
+
+    <p>
+        Transforming lives through mathematics, education,
+        research, innovation and visionary leadership.
+    </p>
+
+    <img src="profile.jpg" alt="Prof. Collins Kipyegon"
+         style="width:220px;border-radius:50%;margin-top:20px;border:5px solid white;">
+
+    <br><br>
+
+    <a href="#about" class="contact-button">Explore My Work</a>
+
+    <a href="#contact" class="contact-button">Contact Me</a>
+</header>
 
     <nav>
         <a href="#about">About Me</a>
         <a href="#mathematics">Pure Mathematics</a>
         <a href="#education">Education</a>
         <a href="#leadership">Leadership</a>
+        <a href="#schools">Schools</a>
+<a href="#research">Research</a>
+<a href="#news">News Desk</a>
+<a href="#media">Media Centre</a>
+<a href="#enterprise">Enterprise</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -236,6 +279,272 @@
             </p>
         </div>
     </section>
+    <section id="research">
+    <div class="card">
+        <h2>Research & Publications</h2>
+
+        <p>
+        My research interests focus on Pure Mathematics, Mathematics Education,
+        innovation in teaching and learning, and developing solutions through
+        mathematical thinking.
+        </p>
+
+        <p>
+        Current areas of interest include:
+        </p>
+
+        <ul>
+            <li>Mathematical Analysis</li>
+            <li>Algebra and Geometry</li>
+            <li>Mathematics Education Research</li>
+            <li>Technology in Education</li>
+        </ul>
+
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2>Schools / Education Profile</h2>
+
+        <div class="education-item">
+            <h3>Mount Kenya University (MKU)</h3>
+            <p><strong>Programme:</strong> Bachelor of Education (Arts)</p>
+            <p><strong>Specialization:</strong> Mathematics and Geography</p>
+            <p>
+                Currently pursuing professional training in education with a passion
+                for mathematics, leadership, research, and community service.
+            </p>
+        </div>
+
+        <div class="education-item">
+            <h3>Chepalungu Boys High School</h3>
+            <p>
+                Completed secondary education while developing strong academic,
+                leadership, and teamwork skills that continue to shape my career.
+            </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2>Media Centre</h2>
+
+        <p>
+            Welcome to the Media Centre. Here you will find photographs and videos
+            highlighting academic events, leadership activities, community outreach,
+            conferences, mentorship programmes, and mathematics workshops.
+        </p>
+
+        <div class="media-gallery">
+            <img src="images/photo1.jpg" alt="Academic Event" width="300">
+            <img src="images/photo2.jpg" alt="Leadership Activity" width="300">
+            <img src="images/photo3.jpg" alt="Community Service" width="300">
+        </div>
+
+        <p><strong>Videos coming soon...</strong></p>
+    </div>
+</section>
+    <section id="news">
+    <div class="card">
+        <h2>Latest News</h2>
+
+        <p>
+        📢 My official website has been successfully launched.
+        </p>
+
+        <p>
+        🎓 Research in Pure Mathematics and Mathematics Education continues to be one of my major academic interests.
+        </p>
+
+        <p>
+        🌍 I am committed to inspiring students, mentoring young leaders, and promoting quality education across Kenya and beyond.
+        </p>
+
+    </div>
+</section>
+    <section id="schools">
+    <div class="card">
+        <h2>Schools</h2>
+
+        <p>
+            I am passionate about transforming education through excellence in teaching,
+            research, mentorship, innovation and academic leadership.
+        </p>
+
+        <ul>
+            <li>School of Pure Mathematics</li>
+            <li>School of Education</li>
+            <li>School of Leadership and Governance</li>
+            <li>School of Science and Technology</li>
+            <li>School of Innovation and Research</li>
+        </ul>
+    </div>
+</section>
+<section id="research">
+    <div class="card">
+        <h2>Research</h2>
+
+        <p>
+            My research interests focus on Pure Mathematics, Mathematics Education,
+            Artificial Intelligence in Education, Educational Technology, Curriculum
+            Development, and Data Analysis.
+        </p>
+
+        <h3>Current Research Areas</h3>
+
+        <ul>
+            <li>Pure Mathematics</li>
+            <li>Mathematics Education</li>
+            <li>Artificial Intelligence in Education</li>
+            <li>Educational Technology</li>
+            <li>Curriculum Development</li>
+            <li>Statistics and Data Analysis</li>
+        </ul>
+
+        <p>
+            I welcome collaboration with researchers, universities, students,
+            and institutions across the world.
+        </p>
+    </div>
+</section>
+<section id="news">
+    <div class="card">
+        <h2>News Desk</h2>
+
+        <h3>Latest Updates</h3>
+
+        <ul>
+            <li>Website officially launched.</li>
+            <li>Sharing mathematics tutorials and educational resources.</li>
+            <li>Research projects currently underway.</li>
+            <li>Community leadership and mentorship activities.</li>
+            <li>Upcoming public lectures and academic events.</li>
+        </ul>
+
+        <p>
+            Stay connected for the latest news, announcements, publications,
+            and achievements.
+        </p>
+    </div>
+</section>
+<section id="media">
+    <div class="card">
+        <h2>Media Centre</h2>
+
+        <p>
+            Welcome to my Media Centre. Here you can access my latest
+            speeches, interviews, educational videos, publications,
+            and photo gallery.
+        </p>
+
+        <h3>Available Media</h3>
+
+        <ul>
+            <li>📸 Photo Gallery</li>
+            <li>🎥 Educational Videos</li>
+            <li>🎤 Public Speeches</li>
+            <li>📚 Academic Publications</li>
+            <li>🎙️ Interviews & Podcasts</li>
+        </ul>
+
+        <p>
+            More media content will be uploaded regularly as my academic,
+            professional and leadership journey continues.
+        </p>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2>Projects & Enterprise</h2>
+
+        <div class="project">
+            <h3>Mathematics Mentorship Programme</h3>
+            <p>
+                A programme dedicated to helping students excel in mathematics through
+                mentorship, revision sessions, and academic guidance.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Academic Website Development</h3>
+            <p>
+                Developing an educational platform where students can access learning
+                resources, revision materials, research publications, and academic news.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Community Leadership Initiative</h3>
+            <p>
+                Promoting education, youth empowerment, innovation, and community
+                development through leadership and service.
+            </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2>Connect With Me</h2>
+
+        <p>Follow me on social media for academic content, leadership updates, and community initiatives.</p>
+
+        <a href="#" target="_blank">📘 Facebook</a><br><br>
+
+        <a href="#" target="_blank">💼 LinkedIn</a><br><br>
+
+        <a href="#" target="_blank">🎵 TikTok</a><br><br>
+
+        <a href="#" target="_blank">🐦 X (Twitter)</a><br><br>
+
+        <a href="#" target="_blank">💬 WhatsApp</a>
+    </div>
+</section>
+<section id="message">
+    <div class="container">
+        <h2>Send Me a Message</h2>
+
+        <form>
+            <label>Full Name</label><br>
+            <input type="text" placeholder="Enter your full name" required><br><br>
+
+            <label>Email Address</label><br>
+            <input type="email" placeholder="Enter your email" required><br><br>
+
+            <label>Your Message</label><br>
+            <textarea rows="6" placeholder="Write your message here..." required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<section id="enterprise">
+    <div class="card">
+        <h2>Enterprise</h2>
+
+        <p>
+            The Enterprise section highlights my commitment to innovation,
+            entrepreneurship, technology, and sustainable development.
+            I believe that education, research, and enterprise should work
+            together to create solutions that positively impact society.
+        </p>
+
+        <h3>Focus Areas</h3>
+
+        <ul>
+            <li>Educational Innovation</li>
+            <li>Technology Solutions</li>
+            <li>Research Commercialization</li>
+            <li>Youth Entrepreneurship</li>
+            <li>Community Development</li>
+            <li>Digital Transformation</li>
+        </ul>
+
+        <p>
+            Future projects, partnerships, and innovative ideas will be
+            showcased here as they are developed.
+        </p>
+    </div>
+</section>
 
     <section id="contact">
         <div class="card">
@@ -301,6 +610,21 @@
             Pure Mathematics • Science • Education • Leadership
         </p>
     </footer>
+    <footer>
+    <div class="container">
+        <hr>
+
+        <p>&copy; 2026 Prof. Collins Kipyegon. All Rights Reserved.</p>
+
+        <p>
+            Pure Mathematics | Research | Education | Leadership
+        </p>
+
+        <p>
+            Designed and Developed by Prof. Collins Kipyegon
+        </p>
+    </div>
+</footer>
 
 </body>
 </html>
